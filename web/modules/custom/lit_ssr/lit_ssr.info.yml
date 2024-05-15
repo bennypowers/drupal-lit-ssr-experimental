@@ -1,0 +1,6 @@
+name: Lit SSR Module
+description: Experimental Lit SSR support
+package: Custom
+
+type: module
+core_version_requirement: ^9.4 || ^10

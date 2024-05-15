@@ -1,0 +1,24 @@
+{
+  "name": "lit-ssr-server",
+  "private": true,
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "postinstall": "patch-package",
+    "start": "node --experimental-vm-modules app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/bodyparser": "^5.1.1",
+    "@lit-labs/ssr": "^3.2.2",
+    "@rhds/elements": "^1.4.1",
+    "@whatwg-node/events": "^0.1.1",
+    "koa": "^2.15.3",
+    "patch-package": "^8.0.0"
+  }
+}

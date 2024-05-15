@@ -1,0 +1,13 @@
+diff --git a/node_modules/@rhds/elements/elements/rh-card/rh-card.js b/node_modules/@rhds/elements/elements/rh-card/rh-card.js
+index 4c8e5e5..1fe6735 100644
+--- a/node_modules/@rhds/elements/elements/rh-card/rh-card.js
++++ b/node_modules/@rhds/elements/elements/rh-card/rh-card.js
+@@ -46,7 +46,7 @@ let RhCard = class RhCard extends LitElement {
+         </header>
+         <div id="body"
+              part="body"
+-             class="${classMap({ empty: !this.querySelector(':not([slot])') })}">
++             class="${classMap({ empty: !this.querySelector?.(':not([slot])') })}">
+           <slot></slot>
+         </div>
+         <footer id="footer"

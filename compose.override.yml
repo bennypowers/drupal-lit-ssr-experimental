@@ -1,25 +1,24 @@
 services:
   php:
     image: wodby/drupal:$DRUPAL_TAG
+    security_opt:
+      - label=disable
     environment:
       PHP_FPM_CLEAR_ENV: "no"
     volumes:
-    - codebase:/var/www/html
+      - ./:/var/www/html:Z
 
   crond:
     image: wodby/drupal:$DRUPAL_TAG
+    security_opt:
+      - label=disable
     environment:
       PHP_FPM_CLEAR_ENV: "no"
     volumes:
-    - codebase:/var/www/html
+      - ./:/var/www/html:Z
 
   nginx:
+    security_opt:
+      - label=disable
     volumes:
-    - codebase:/var/www/html
-
-#  webgrind:
-#    volumes:
-#    - codebase:/mnt/codebase
-
-volumes:
-  codebase:
+      - ./:/var/www/html:Z
