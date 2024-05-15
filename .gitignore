@@ -5,4 +5,4 @@ mutagen.yml.lock
 node_modules
 vendor
 web
-!web/modules/custom
+!web/modules/custom/**/*

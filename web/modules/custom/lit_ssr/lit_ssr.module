@@ -9,20 +9,18 @@
  * Implements hook_entity_view_alter().
  */
 function lit_ssr_entity_view_alter(array &$build, $entity, $display) {
-  // The object must implement \Drupal\Core\Security\TrustedCallbackInterface.
-  // $output['#post_render'][] = '\Drupal\lit_ssr\LitSsrService::ssr';
-  $build['#post_render'][] = function($html) {
-    $client = Drupal::httpClient();
-    $response = $client->request('POST', 'http://my_drupal10_project_ssr:3333', [
-      'body' => $html,
-      'headers' => [
-        'Content-Type' => 'text/html',
-        'Accept'     => 'text/html',
-      ]
-    ]);
-    if ($response->getStatusCode() != 200) {
-      return $html;
-    }
-    return $response->getBody()->getContents();
-  };
+  // $build['#post_render'][] = function($html) {
+  //   $client = Drupal::httpClient();
+  //   $response = $client->request('POST', 'http://my_drupal10_project_ssr:3333', [
+  //     'body' => $html,
+  //     'headers' => [
+  //       'Content-Type' => 'text/html',
+  //       'Accept'     => 'text/html',
+  //     ]
+  //   ]);
+  //   if ($response->getStatusCode() != 200) {
+  //     return $html;
+  //   }
+  //   return $response->getBody()->getContents();
+  // };
 }
