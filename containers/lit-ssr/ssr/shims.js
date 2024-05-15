@@ -1,12 +1,13 @@
-// import { Event, EventTarget } from '@whatwg-node/events';
+class ObserverShim {
+  observe() {}
+  disconnect() {}
+}
 
 globalThis.window ??= globalThis;
 
-// globalThis.Event ??= Event;
-// globalThis.EventTarget ??= EventTarget;
 globalThis.ErrorEvent ??= Event;
-globalThis.IntersectionObserver ??= (class {});
-globalThis.MutationObserver ??= (class {});
+globalThis.IntersectionObserver ??= ObserverShim;
+globalThis.MutationObserver ??= ObserverShim;
 
 globalThis.getComputedStyle ??= function() {
   return {
