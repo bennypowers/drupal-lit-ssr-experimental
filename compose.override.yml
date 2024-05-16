@@ -5,6 +5,7 @@ services:
       - label=disable
     environment:
       PHP_FPM_CLEAR_ENV: "no"
+      DRUPAL_TRUSTED_HOST: "${DRUPAL_TRUSTED_HOST}"
     volumes:
       - ./:/var/www/html:Z
     networks:
