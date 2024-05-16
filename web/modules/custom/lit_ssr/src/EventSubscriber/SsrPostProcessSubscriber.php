@@ -44,6 +44,8 @@ final class SsrPostProcessSubscriber implements EventSubscriberInterface {
     return (is_string($path)
             && !str_starts_with($path, '/admin/')
             && !str_starts_with($path, '/block/')
+            && !str_starts_with($path, '/editor/')
+            && !str_starts_with($path, '/node/add/')
             && !str_ends_with($path, '.js')
             && !str_ends_with($path, '.css')
            );
