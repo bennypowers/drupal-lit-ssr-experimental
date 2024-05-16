@@ -36,6 +36,10 @@ services:
       MYSQL_USER: $DB_USER
       MYSQL_PASSWORD: $DB_PASSWORD
       MYSQL_TRANSACTION_ISOLATION: READ-COMMITTED
+    volumes:
+      - ./mariadb-init:/docker-entrypoint-initdb.d # Place init .sql file(s) here.
+      - ./mariadb-persist:/var/lib/mysql # Use bind mount
+
 
   php:
     image: wodby/drupal-php:$PHP_TAG
@@ -82,20 +86,6 @@ services:
     labels:
       - "traefik.http.services.${PROJECT_NAME}_mailhog.loadbalancer.server.port=8025"
       - "traefik.http.routers.${PROJECT_NAME}_mailhog.rule=Host(`mailhog.${PROJECT_BASE_URL}`)"
-
-  # node:
-  #   image: wodby/node:$NODE_TAG
-  #   container_name: "${PROJECT_NAME}_node"
-  #   working_dir: /var/www/html/drupal-lit-ssr
-  #   labels:
-  #   - "traefik.http.services.${PROJECT_NAME}_node.loadbalancer.server.port=3000"
-  #   - "traefik.http.routers.${PROJECT_NAME}_node.rule=Host(`node.${PROJECT_BASE_URL}`)"
-  #   expose:
-  #   - "3000"
-  #   volumes:
-  #   - ./:/var/www/html
-  #   - /run/user/1000/podman/podman.sock:/var/run/docker.sock:Z
-  #   command: sh -c 'yarn install && yarn run start'
 
 volumes:
   files:

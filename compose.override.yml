@@ -7,6 +7,8 @@ services:
       PHP_FPM_CLEAR_ENV: "no"
     volumes:
       - ./:/var/www/html:Z
+    networks:
+      - ssr
 
   crond:
     image: wodby/drupal:$DRUPAL_TAG
