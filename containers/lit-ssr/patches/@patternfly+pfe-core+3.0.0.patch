@@ -45,3 +45,20 @@ index 1c4568e..0babe65
 -    },
 -});
  //# sourceMappingURL=core.js.map
+diff --git a/node_modules/@patternfly/pfe-core/functions/context.js b/node_modules/@patternfly/pfe-core/functions/context.js
+index 2a1e6ea..7d7ffbe
+--- a/node_modules/@patternfly/pfe-core/functions/context.js
++++ b/node_modules/@patternfly/pfe-core/functions/context.js
+@@ -1,8 +1,11 @@
++import { isServer } from 'lit';
+ import { ContextRoot, createContext } from '@lit/context';
+ let root;
+ function makeContextRoot() {
+     root = new ContextRoot();
+-    root.attach(document.body);
++    if (!isServer) {
++      root.attach(document.body);
++    }
+     return root;
+ }
+ /**
