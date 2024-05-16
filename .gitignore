@@ -7,6 +7,6 @@ vendor
 web/core
 web/profiles
 web/sites
-web/themes
+web/themes/README.txt
 web/*.*
 !web/modules/custom/**/*
