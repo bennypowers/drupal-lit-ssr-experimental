@@ -7,6 +7,7 @@ import { unsafeHTML } from 'lit/directives/unsafe-html.js';
 
 import '@rhds/elements/rh-card/rh-card.js';
 import '@rhds/elements/rh-cta/rh-cta.js';
+import '@rhds/elements/rh-footer/rh-footer.js';
 
 export async function ssr(input) {
   return collectResult(render(html`${unsafeHTML(input)}`));

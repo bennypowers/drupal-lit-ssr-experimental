@@ -1,4 +1,3 @@
-
 import { ModuleLoader } from '@lit-labs/ssr/lib/module-loader.js';
 
 export async function renderInVm(html) {
