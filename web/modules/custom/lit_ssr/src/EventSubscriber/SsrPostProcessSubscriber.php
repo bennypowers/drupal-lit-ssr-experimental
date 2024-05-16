@@ -42,10 +42,10 @@ final class SsrPostProcessSubscriber implements EventSubscriberInterface {
   protected function is_valid_ssr_url(string $url): bool {
     $path = parse_url($url, PHP_URL_PATH);
     return (is_string($path)
-            && !str_starts_with('/admin/')
-            && !str_starts_with('/block/')
-            && !str_ends_with('.js')
-            && !str_ends_with('.css')
+            && !str_starts_with($path, '/admin/')
+            && !str_starts_with($path, '/block/')
+            && !str_ends_with($path, '.js')
+            && !str_ends_with($path, '.css')
            );
   }
 
