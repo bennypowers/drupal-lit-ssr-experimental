@@ -19,8 +19,8 @@ const app = new Koa()
       if (ctx.request.is('application/json')) {
         html = ctx.request?.body?.html;
       }
-      const rendered = await renderInVm(html);
-      // const rendered = await renderGlobal(html);
+      // const rendered = await renderInVm(html);
+      const rendered = await renderGlobal(html);
       ctx.type = 'text/html';
       ctx.response.body = rendered;
     }
