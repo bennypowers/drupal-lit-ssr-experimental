@@ -2,12 +2,13 @@ FROM node:22
 
 WORKDIR /app
 
-COPY package*.json ./
-COPY patches ./
+COPY *.json ./
+COPY app.js ./
+
+ADD patches patches
+ADD ssr ssr
 
 RUN npm ci
-
-COPY . .
 
 EXPOSE 3333
 

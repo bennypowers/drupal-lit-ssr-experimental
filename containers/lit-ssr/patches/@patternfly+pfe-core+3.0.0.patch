@@ -1,318 +1,47 @@
-diff --git a/node_modules/@patternfly/pfe-core/LICENSE.txt b/node_modules/@patternfly/pfe-core/LICENSE.txt
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/README.md b/node_modules/@patternfly/pfe-core/README.md
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/controllers/cascade-controller.d.ts b/node_modules/@patternfly/pfe-core/controllers/cascade-controller.d.ts
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/controllers/cascade-controller.js b/node_modules/@patternfly/pfe-core/controllers/cascade-controller.js
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/controllers/cascade-controller.js.map b/node_modules/@patternfly/pfe-core/controllers/cascade-controller.js.map
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/controllers/css-variable-controller.d.ts b/node_modules/@patternfly/pfe-core/controllers/css-variable-controller.d.ts
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/controllers/css-variable-controller.js b/node_modules/@patternfly/pfe-core/controllers/css-variable-controller.js
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/controllers/css-variable-controller.js.map b/node_modules/@patternfly/pfe-core/controllers/css-variable-controller.js.map
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/controllers/floating-dom-controller.d.ts b/node_modules/@patternfly/pfe-core/controllers/floating-dom-controller.d.ts
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/controllers/floating-dom-controller.js b/node_modules/@patternfly/pfe-core/controllers/floating-dom-controller.js
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/controllers/floating-dom-controller.js.map b/node_modules/@patternfly/pfe-core/controllers/floating-dom-controller.js.map
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/controllers/internals-controller.d.ts b/node_modules/@patternfly/pfe-core/controllers/internals-controller.d.ts
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/controllers/internals-controller.js b/node_modules/@patternfly/pfe-core/controllers/internals-controller.js
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/controllers/internals-controller.js.map b/node_modules/@patternfly/pfe-core/controllers/internals-controller.js.map
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/controllers/light-dom-controller.d.ts b/node_modules/@patternfly/pfe-core/controllers/light-dom-controller.d.ts
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/controllers/light-dom-controller.js b/node_modules/@patternfly/pfe-core/controllers/light-dom-controller.js
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/controllers/light-dom-controller.js.map b/node_modules/@patternfly/pfe-core/controllers/light-dom-controller.js.map
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/controllers/listbox-controller.d.ts b/node_modules/@patternfly/pfe-core/controllers/listbox-controller.d.ts
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/controllers/listbox-controller.js b/node_modules/@patternfly/pfe-core/controllers/listbox-controller.js
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/controllers/listbox-controller.js.map b/node_modules/@patternfly/pfe-core/controllers/listbox-controller.js.map
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/controllers/logger.d.ts b/node_modules/@patternfly/pfe-core/controllers/logger.d.ts
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/controllers/logger.js b/node_modules/@patternfly/pfe-core/controllers/logger.js
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/controllers/logger.js.map b/node_modules/@patternfly/pfe-core/controllers/logger.js.map
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/controllers/overflow-controller.d.ts b/node_modules/@patternfly/pfe-core/controllers/overflow-controller.d.ts
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/controllers/overflow-controller.js b/node_modules/@patternfly/pfe-core/controllers/overflow-controller.js
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/controllers/overflow-controller.js.map b/node_modules/@patternfly/pfe-core/controllers/overflow-controller.js.map
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/controllers/perf-controller.d.ts b/node_modules/@patternfly/pfe-core/controllers/perf-controller.d.ts
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/controllers/perf-controller.js b/node_modules/@patternfly/pfe-core/controllers/perf-controller.js
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/controllers/perf-controller.js.map b/node_modules/@patternfly/pfe-core/controllers/perf-controller.js.map
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/controllers/property-observer-controller.d.ts b/node_modules/@patternfly/pfe-core/controllers/property-observer-controller.d.ts
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/controllers/property-observer-controller.js b/node_modules/@patternfly/pfe-core/controllers/property-observer-controller.js
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/controllers/property-observer-controller.js.map b/node_modules/@patternfly/pfe-core/controllers/property-observer-controller.js.map
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/controllers/roving-tabindex-controller.d.ts b/node_modules/@patternfly/pfe-core/controllers/roving-tabindex-controller.d.ts
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/controllers/roving-tabindex-controller.js b/node_modules/@patternfly/pfe-core/controllers/roving-tabindex-controller.js
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/controllers/roving-tabindex-controller.js.map b/node_modules/@patternfly/pfe-core/controllers/roving-tabindex-controller.js.map
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/controllers/scroll-spy-controller.d.ts b/node_modules/@patternfly/pfe-core/controllers/scroll-spy-controller.d.ts
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/controllers/scroll-spy-controller.js b/node_modules/@patternfly/pfe-core/controllers/scroll-spy-controller.js
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/controllers/scroll-spy-controller.js.map b/node_modules/@patternfly/pfe-core/controllers/scroll-spy-controller.js.map
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/controllers/slot-controller.d.ts b/node_modules/@patternfly/pfe-core/controllers/slot-controller.d.ts
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/controllers/slot-controller.js b/node_modules/@patternfly/pfe-core/controllers/slot-controller.js
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/controllers/slot-controller.js.map b/node_modules/@patternfly/pfe-core/controllers/slot-controller.js.map
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/controllers/style-controller.d.ts b/node_modules/@patternfly/pfe-core/controllers/style-controller.d.ts
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/controllers/style-controller.js b/node_modules/@patternfly/pfe-core/controllers/style-controller.js
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/controllers/style-controller.js.map b/node_modules/@patternfly/pfe-core/controllers/style-controller.js.map
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/controllers/tabs-aria-controller.d.ts b/node_modules/@patternfly/pfe-core/controllers/tabs-aria-controller.d.ts
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/controllers/tabs-aria-controller.js b/node_modules/@patternfly/pfe-core/controllers/tabs-aria-controller.js
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/controllers/tabs-aria-controller.js.map b/node_modules/@patternfly/pfe-core/controllers/tabs-aria-controller.js.map
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/controllers/timestamp-controller.d.ts b/node_modules/@patternfly/pfe-core/controllers/timestamp-controller.d.ts
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/controllers/timestamp-controller.js b/node_modules/@patternfly/pfe-core/controllers/timestamp-controller.js
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/controllers/timestamp-controller.js.map b/node_modules/@patternfly/pfe-core/controllers/timestamp-controller.js.map
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/core.d.ts b/node_modules/@patternfly/pfe-core/core.d.ts
-old mode 100644
-new mode 100755
 diff --git a/node_modules/@patternfly/pfe-core/core.js b/node_modules/@patternfly/pfe-core/core.js
-old mode 100644
-new mode 100755
-index 1c4568e..bb6f488
+index 1c4568e..0babe65
 --- a/node_modules/@patternfly/pfe-core/core.js
 +++ b/node_modules/@patternfly/pfe-core/core.js
-@@ -1,7 +1,7 @@
+@@ -1,8 +1,5 @@
  const noPref = Symbol();
  /** Retrieve an HTML metadata item */
- function getMeta(name) {
+-function getMeta(name) {
 -    return document.head.querySelector(`meta[name="${name}"]`)?.content;
-+    return document?.head?.querySelector?.(`meta[name="${name}"]`)?.content;
- }
+-}
  /**
   * A boolean value that indicates if the performance should be tracked.
-@@ -52,7 +52,7 @@ export class ComposedEvent extends Event {
+  * For use in a JS file or script tag; can also be added in the constructor of a component during development.
+@@ -10,6 +7,7 @@ function getMeta(name) {
+  */
+ export function trackPerformance(preference = noPref) {
+     if (preference !== noPref) {
++        window.PfeConfig ??= {};
+         window.PfeConfig.trackPerformance = !!preference;
+     }
+     return window.PfeConfig.trackPerformance;
+@@ -52,25 +50,4 @@ export class ComposedEvent extends Event {
          });
      }
  }
 -const bodyNoAutoReveal = document.body.hasAttribute('no-auto-reveal');
-+const bodyNoAutoReveal = document?.body?.hasAttribute('no-auto-reveal') ?? false;
- /** Global patternfly elements config */
- window.PfeConfig = Object.assign(window.PfeConfig ?? {}, {
-     trackPerformance: window.PfeConfig?.trackPerformance ?? getMeta('pf-track-performance') === 'true',
-@@ -62,14 +62,14 @@ window.PfeConfig = Object.assign(window.PfeConfig ?? {}, {
-     autoReveal: window.PfeConfig?.autoReveal ?? (bodyNoAutoReveal ? !bodyNoAutoReveal
-         : getMeta('pf-auto-reveal') === 'true'),
-     get log() {
+-/** Global patternfly elements config */
+-window.PfeConfig = Object.assign(window.PfeConfig ?? {}, {
+-    trackPerformance: window.PfeConfig?.trackPerformance ?? getMeta('pf-track-performance') === 'true',
+-    // if the body tag has `no-auto-reveal` attribute, reveal immediately
+-    // if `<meta name="pf-auto-reveal">` exists, and it's `content` is 'true',
+-    // then auto-reveal the body
+-    autoReveal: window.PfeConfig?.autoReveal ?? (bodyNoAutoReveal ? !bodyNoAutoReveal
+-        : getMeta('pf-auto-reveal') === 'true'),
+-    get log() {
 -        return !!localStorage.pfeLog;
-+        return !!localStorage?.pfeLog;
-     },
-     set log(v) {
-         if (v) {
+-    },
+-    set log(v) {
+-        if (v) {
 -            localStorage.setItem('pfeLog', `${true}`);
-+            localStorage?.setItem('pfeLog', `${true}`);
-         }
-         else {
+-        }
+-        else {
 -            localStorage.removeItem('pfeLog');
-+            localStorage?.removeItem('pfeLog');
-         }
-     },
- });
-diff --git a/node_modules/@patternfly/pfe-core/core.js.map b/node_modules/@patternfly/pfe-core/core.js.map
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/custom-elements.json b/node_modules/@patternfly/pfe-core/custom-elements.json
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/decorators.d.ts b/node_modules/@patternfly/pfe-core/decorators.d.ts
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/decorators.js b/node_modules/@patternfly/pfe-core/decorators.js
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/decorators.js.map b/node_modules/@patternfly/pfe-core/decorators.js.map
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/decorators/bound.d.ts b/node_modules/@patternfly/pfe-core/decorators/bound.d.ts
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/decorators/bound.js b/node_modules/@patternfly/pfe-core/decorators/bound.js
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/decorators/bound.js.map b/node_modules/@patternfly/pfe-core/decorators/bound.js.map
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/decorators/cascades.d.ts b/node_modules/@patternfly/pfe-core/decorators/cascades.d.ts
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/decorators/cascades.js b/node_modules/@patternfly/pfe-core/decorators/cascades.js
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/decorators/cascades.js.map b/node_modules/@patternfly/pfe-core/decorators/cascades.js.map
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/decorators/deprecation.d.ts b/node_modules/@patternfly/pfe-core/decorators/deprecation.d.ts
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/decorators/deprecation.js b/node_modules/@patternfly/pfe-core/decorators/deprecation.js
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/decorators/deprecation.js.map b/node_modules/@patternfly/pfe-core/decorators/deprecation.js.map
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/decorators/initializer.d.ts b/node_modules/@patternfly/pfe-core/decorators/initializer.d.ts
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/decorators/initializer.js b/node_modules/@patternfly/pfe-core/decorators/initializer.js
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/decorators/initializer.js.map b/node_modules/@patternfly/pfe-core/decorators/initializer.js.map
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/decorators/observed.d.ts b/node_modules/@patternfly/pfe-core/decorators/observed.d.ts
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/decorators/observed.js b/node_modules/@patternfly/pfe-core/decorators/observed.js
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/decorators/observed.js.map b/node_modules/@patternfly/pfe-core/decorators/observed.js.map
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/decorators/time.d.ts b/node_modules/@patternfly/pfe-core/decorators/time.d.ts
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/decorators/time.js b/node_modules/@patternfly/pfe-core/decorators/time.js
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/decorators/time.js.map b/node_modules/@patternfly/pfe-core/decorators/time.js.map
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/decorators/trace.d.ts b/node_modules/@patternfly/pfe-core/decorators/trace.d.ts
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/decorators/trace.js b/node_modules/@patternfly/pfe-core/decorators/trace.js
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/decorators/trace.js.map b/node_modules/@patternfly/pfe-core/decorators/trace.js.map
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/functions/containsDeep.d.ts b/node_modules/@patternfly/pfe-core/functions/containsDeep.d.ts
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/functions/containsDeep.js b/node_modules/@patternfly/pfe-core/functions/containsDeep.js
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/functions/containsDeep.js.map b/node_modules/@patternfly/pfe-core/functions/containsDeep.js.map
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/functions/context.d.ts b/node_modules/@patternfly/pfe-core/functions/context.d.ts
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/functions/context.js b/node_modules/@patternfly/pfe-core/functions/context.js
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/functions/context.js.map b/node_modules/@patternfly/pfe-core/functions/context.js.map
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/functions/debounce.d.ts b/node_modules/@patternfly/pfe-core/functions/debounce.d.ts
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/functions/debounce.js b/node_modules/@patternfly/pfe-core/functions/debounce.js
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/functions/debounce.js.map b/node_modules/@patternfly/pfe-core/functions/debounce.js.map
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/functions/isElementInView.d.ts b/node_modules/@patternfly/pfe-core/functions/isElementInView.d.ts
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/functions/isElementInView.js b/node_modules/@patternfly/pfe-core/functions/isElementInView.js
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/functions/isElementInView.js.map b/node_modules/@patternfly/pfe-core/functions/isElementInView.js.map
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/functions/random.d.ts b/node_modules/@patternfly/pfe-core/functions/random.d.ts
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/functions/random.js b/node_modules/@patternfly/pfe-core/functions/random.js
-old mode 100644
-new mode 100755
-diff --git a/node_modules/@patternfly/pfe-core/functions/random.js.map b/node_modules/@patternfly/pfe-core/functions/random.js.map
-old mode 100644
-new mode 100755
+-        }
+-    },
+-});
+ //# sourceMappingURL=core.js.map
