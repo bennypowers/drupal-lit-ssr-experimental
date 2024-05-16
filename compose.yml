@@ -28,6 +28,8 @@ services:
 
   mariadb:
     image: wodby/mariadb:$MARIADB_TAG
+    security_opt:
+      - label=disable
     container_name: "${PROJECT_NAME}_mariadb"
     stop_grace_period: 30s
     environment:
@@ -37,8 +39,7 @@ services:
       MYSQL_PASSWORD: $DB_PASSWORD
       MYSQL_TRANSACTION_ISOLATION: READ-COMMITTED
     volumes:
-      - ./mariadb-init:/docker-entrypoint-initdb.d # Place init .sql file(s) here.
-      - ./mariadb-persist:/var/lib/mysql # Use bind mount
+      - ./mariadb-init:/docker-entrypoint-initdb.d:Z # Place init .sql file(s) here.
 
 
   php:

@@ -4,5 +4,9 @@ mutagen.yml.lock
 
 node_modules
 vendor
-web
+web/core
+web/profiles
+web/sites
+web/themes
+web/*.*
 !web/modules/custom/**/*
