@@ -1,0 +1,5 @@
+services:
+  lit_ssr.ssr_post_process_subscriber:
+    class: Drupal\lit_ssr\EventSubscriber\SsrPostProcessSubscriber
+    tags:
+      - { name: event_subscriber }
